@@ -10,12 +10,16 @@ import javax.swing.JOptionPane;
 public class JFrameLogin extends javax.swing.JFrame {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	/**
      * Creates new form JFrameLogin
      */
     public JFrameLogin() {
         initComponents();
         
-        // Posiicionando a tela JFrameLogin ao centro da tela do usuário
+        // Posiicionando a tela JFrameLogin ao centro da tela do usuÃ¡rio
         setLocationRelativeTo(null);
     }
 
@@ -141,7 +145,7 @@ public class JFrameLogin extends javax.swing.JFrame {
             
         }else{
             
-            JOptionPane.showMessageDialog(null, "Campos Login e Senha não preenchidos...");
+            JOptionPane.showMessageDialog(null, "Campos Login e Senha nÃ£o preenchidos...");
             
         }
         
